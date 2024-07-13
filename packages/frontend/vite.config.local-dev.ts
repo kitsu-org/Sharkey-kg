@@ -11,7 +11,7 @@ const defaultConfig = getConfig();
 
 const { port } = yaml.load(await readFile('../../.config/default.yml', 'utf-8'));
 
-const httpUrl = `https://kitsunes.club/`;
+const httpUrl = `https://kitsunes.gay/`;
 const websocketUrl = `ws://localhost:${port}/`;
 
 const devConfig = {
