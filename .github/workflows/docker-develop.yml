@@ -16,7 +16,7 @@ jobs:
   push_to_registry:
     name: Push Docker image to GHCR
     runs-on: ubuntu-latest
-    if: github.repository == 'kitsu-org/Sharkey-kc'
+    if: github.repository == 'kitsu-org/Sharkey-kg'
     permissions:
       contents: read
       packages: write
@@ -52,7 +52,7 @@ jobs:
           push: true
           platforms: ${{ steps.buildx.outputs.platforms }}
           provenance: false
-          tags:  ${{ env.REGISTRY }}/kitsu-org/sharkey-kc:develop,${{ env.REGISTRY }}/kitsu-org/sharkey-kc:${{ github.sha }}
+          tags:  ${{ env.REGISTRY }}/kitsu-org/sharkey-kg:develop,${{ env.REGISTRY }}/kitsu-org/sharkey-kg:${{ github.sha }}
           labels: develop
           cache-from: type=gha
           cache-to: type=gha,mode=max
