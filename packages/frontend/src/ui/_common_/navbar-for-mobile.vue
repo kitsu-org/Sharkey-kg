@@ -117,7 +117,7 @@ function more() {
 .instanceIcon {
 	display: inline-block;
 	width: 120px;
-	content: url("https://s3.plasmatrap.com//b3839ce5-d4e9-428e-b6f9-28a325ea65b2.webp")
+	content: url("https://s3.kitsunes.club/storage/aa0211fa-9aa9-4b59-8b2f-22bd72d4f568.webp")
 }
 
 .bottom {
